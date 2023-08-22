@@ -1,0 +1,115 @@
+/* <!-- Ordem CSS: Inline > Internal = External > Padrão Navegador --> */
+/* Ordem dos seletores: id > class > seletor de tag */
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/*p {
+    color: blueviolet;
+}*/
+
+/* Comentário e pah */
+/* Ala outro comentario */
+/* Sério, um comentario */
+
+/* Classes = Elementos que se repetem */
+.paragraph{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/* Ids = Elemento Unico */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 3px;
+    font-size: 40px;
+}
+
+/* Ordem das Regras */
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name{
+    color: crimson;
+}
+
+/* Hex */
+.hex{
+    color: #55a398
+}
+
+.hex-2{
+    color: #F51;
+}
+
+/* Aprofundando em HEX */
+.simple-hex{
+    color: #333;
+}
+
+.simple-hex-2{
+    color: #A5F;
+}
+
+/* RGB */
+.rgb{
+    color: rgb(255,0,0);
+}
+
+.mixed-rgb{
+    color: rgb(255,100,200);
+}
+
+/* RGBA */
+.rgba{
+    color: rgba(200,199,45,0.5);
+}
+
+/* HSL */
+.hsl{
+    color: hsl(300,25%,50%);
+}
+
+.hsl-2{
+    color: hsl(201,25%,30%);
+}
+
+/* Background */
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200,40,20);
+    color: #00FFEA;
+}
+
+/* Background Opacity */
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
