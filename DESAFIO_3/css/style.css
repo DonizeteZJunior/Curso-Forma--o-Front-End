@@ -1,0 +1,16 @@
+#box-model{
+    margin: 5px 10px 5px 10px;
+    border: 3px solid rgb(204, 101, 204);
+    outline: 3px solid rgb(209, 100, 80);
+    border-radius: 5px;
+    padding: 20px 10px;
+    background-color: rgb(100, 150, 200);
+    width: 400px;
+    height: 300px;
+}
+
+.box-text{
+    background-color: rgb(231, 231, 140);
+    color: rgb(10,200,50);
+    border: none;
+}
