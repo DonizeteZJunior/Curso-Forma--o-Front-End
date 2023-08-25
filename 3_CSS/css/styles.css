@@ -271,3 +271,230 @@ h2{
     width: 200px;
     height: 300px;
 }
+
+/* Text Align */
+.text-align{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(255,0,0);
+}
+
+/* Text decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.line-trought{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* Text Transform */
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* Letter Spacing */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif{
+    font-family: Georgia;
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: "Courier New";
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* Text Style */
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* Font Weight => serve para ajustar a proporção da fonte, deixando a mesma mais fina ou mais grossa 
+    vai de 100 a 900 */
+.thin,.bold,.bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Font Size */
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(100, 200, 0);
+    margin: 10px;
+    display: inline-block; /* Faz com que os elementos considerados de bloco fiquem inline */
+}
+
+.block{
+    background-color: #542156;
+    display: block;
+    margin: 10px;
+}
+
+/* Escondendo elementos */
+.invisible{
+    display: none;
+}
+
+/* Static */
+.static{
+    position: static;
+    background-color: #482;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative{
+    position: relative;
+    background-color: #335;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 35px;
+}  
+
+/* Absolute */
+.absolute{
+    position: absolute;
+    background-color: #751;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relative com Absolute */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F00;
+    margin-top: 12px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 2px;
+    right: 3px;
+}
+
+/* Position Fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #321;
+    border: 1px solid #0EF;
+    color: #FFF;
+    position: fixed;
+    top: 50px;
+    right: 30px;
+}
+
+/* Position Sticky */
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #999;
+    border: 1px solid #FEA;
+    color: #000;
+    position: sticky;
+    top:1px;
+}
+
+/* Z-Index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #132;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #564;
+    z-index: 2;
+}
+
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #543;
+    z-index: 1;
+}
