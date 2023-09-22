@@ -1,0 +1,25 @@
+body{
+    padding-bottom: 500px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+div input,
+div label{
+    display: block;
+}
+
+.radio label,
+.radio input,
+.radio span{
+    display: inline-block;
+}
