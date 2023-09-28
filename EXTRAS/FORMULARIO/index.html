@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Don Persefone</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>A vida pode ser boa, mas com uma Pizza ela se torna excelente!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário de Pedido</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Aproveite a pizza mais saborosa da cidade!</h1>
+                <p>
+                    Defina abaixo seu pedido de pizza.
+                </p>
+                <form>
+                    <div class="box-input">
+                        <label for="sabor" class="bold">
+                            Sabor da pizza: <span class="required-field">*</span>
+                        </label>
+                        <select name="sabor" id="sabor" class="block" required>
+                            <option value="">-</option>
+                            <option value="4_queijos">4 Queijos</option>
+                            <option value="calabresa">Calabresa</option>
+                            <option value="frango">Frango Catupiry</option>
+                            <option value="portuguesa">Portuguesa</option>
+                        </select>
+                    </div>
+                    <div class="box-input">
+                        <p class="bold">
+                            Tamanho da pizza: <span class="required-field">*</span>
+                        </p>
+                        <input type="radio" id="quatro" name="size" required />
+                        <label for="quatro">4 Pedaços</label>
+                        <input type="radio" id="oito" name="size" required />
+                        <label for="oito">8 Pedaços</label>
+                        <input type="radio" id="dezesseis" name="size" required />
+                        <label for="dezesseis">16 Pedaços</label>
+                    </div>
+                    <div class="box-input">
+                        <p class="bold">
+                            Adicional de borda: <span class="required-field">*</span>
+                        </p>
+                        <input type="radio" id="catupiry" name="adicional" />
+                        <label for="catupiry">Borda Recheada: Catupiry</label>
+                        <input type="radio" id="cheddar" name="adicional" />
+                        <label for="cheddar">Borda Recheada: Cheddar</label>
+                        <input type="radio" id="salsicha" name="adicional" />
+                        <label for="salsicha">Borda Recheada: Salsicha</label>
+                    </div>
+                    <div class="box-input">
+                        <fieldset>
+                            <legend>Informações de Entrega</legend>
+                            <label for="name" class="bold">
+                                Nome do cliente <span class="required-field">*</span>
+                            </label>
+                            <input type="text" name="name" id="name" class="block-field" required
+                                placeholder="Digite seu nome, para sabermos a quem entregar." minlength="5" maxlength="50" />                      
+                            <label for="district" class="bold">
+                                Bairro <span class="required-field">*</span>
+                            </label>
+                            <input type="text" name="district" id="district" class="block-field" required
+                                placeholder="Digite o nome do seu bairro." />
+                            <label for="street" class="bold">
+                                Rua <span class="required-field">*</span>
+                            </label>
+                            <input type="text" name="street" id="street" class="block-field" required
+                                placeholder="Digite o nome da sua rua." />
+                            <label for="number" class="bold">
+                                Número <span class="required-field">*</span>
+                            </label>
+                            <input type="number" name="number" id="number" class="block-field" required
+                                placeholder="Digite o número da sua casa."  minlength="1" maxlength="5" />
+                            <label for="complement" class="bold">
+                                Complemento 
+                            </label>
+                            <input type="text" name="complement" id="complement" class="block-field" 
+                                placeholder="Digite o complemento da casa, caso necessário."  />
+                            <label for="name" class="bold">
+                                CEP <span class="required-field">*</span>
+                            </label>
+                            <input type="text" name="name" id="name" class="block-field" required
+                                placeholder="Digite seu CEP para confirmarmos o endereço." minlength="1" maxlength="9" />
+                            <label for="phone" class="bold">
+                                Telefone <span class="required-field">*</span>
+                            </label>
+                            <input type="text" name="phone" id="phone" class="block-field" required 
+                                placeholder="Deixe para nós um telefone de contato." minlength="8" maxlength="16"/>
+                        </fieldset>                     
+                    </div>
+                    <div class="box-input">
+                        <label for="comments" class="bold">Observações <span class="required-field">*</span></label>
+                        <textarea name="comments" id="comments" class="block" 
+                            placeholder="Aqui você descreve observações sobre o pedido."></textarea>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
