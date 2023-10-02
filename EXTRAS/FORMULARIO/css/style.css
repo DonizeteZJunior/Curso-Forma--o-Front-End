@@ -141,3 +141,38 @@ fieldset{
     border-color: #3eb73a;
     color: #3eb73a;
 }
+
+@media (max-width:900px){
+    .header h3{
+        padding: 0 5rem;
+    }
+}
+
+/* Celular 576px */
+@media (max-width: 576px){
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .form-title{
+        font-size: 20px;
+    }
+
+    .box-input input[type="radio"],
+    .box-input label{
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .box-input select{
+        width: 100%;
+    }
+
+    .box-input textarea{
+        width: 100%;
+    }
+
+    .box-input fieldset input{
+        width: 100%;
+    }
+}
