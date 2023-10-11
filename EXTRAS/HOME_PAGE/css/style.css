@@ -1,0 +1,366 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3{
+    color: #444;
+}
+
+p{
+    color: #7ac89d;
+}
+
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: #7ac89d;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.navbar-items{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5;
+    font-weight: bold;
+}
+
+.navbar-items a:hover{
+    color: #CCC;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #f8cf6a;
+    border-radius: 5px;
+    transition: 0.5;
+}
+
+.navbar-items .default-btn:hover{
+    background-color: #eebc5a;
+    color: #FFF;
+}
+
+/* Main Banner */
+.main-banner{
+    background-image: url("../img/mainbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 14rem 0;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #EEE;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 2px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/* Benefits */
+.benefits-container{
+    padding: 5rem 0;
+}
+
+.benefits-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefits-container li{
+    flex:1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-book{
+    color: #eebc5a;
+}
+
+.fa-heart-circle-plus{
+    color: #c45c3d ;
+}
+
+.fa-person-walking{
+    color: #c1cda2;
+}
+
+.fa-atom{
+    color: #2133d9;
+}
+
+.benefits-container h3{
+    margin-bottom: 25px;
+}
+
+.benefits-container p{
+    line-height: 24px;
+}
+
+/* Members */
+.members-container{
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.members-container h2{
+    font-size: 36px;
+}
+
+.members-container p{
+    font-size: 20px;
+}
+
+/* Price and Plans */
+.pricing-container{
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #d7d8db;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #7ac89d;
+    color: #FFF;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #eebc5a;
+    padding: 50px 0;
+}
+
+.plan .plan-btn{
+    background-color: #7ac89d;
+    color: #FFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.plan .recommended {
+    background-color: #c45c3d;
+}
+
+.plan .plan-btn:hover{
+    opacity: 1;
+}
+
+/* Contact Form */
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: #7ac89d;
+    color: #FFF;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.contact-container input[type="submit"]:hover{
+    opacity: 1;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    background-color: #57c789;
+    opacity: 0.7;
+}
+
+footer p{
+    padding-top: 10px;
+    color: #FFF;
+}
+
+/* Responsividade */
+/* Small laptops a partir de 1100px */
+@media (max-width: 1100px){
+    .plans-container{
+        width: 95%;
+    }
+
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+/* Tablet 900px */
+@media (max-width: 900px){
+    .plan .plan-name{
+        height: 100px;
+    }
+    
+    .plan ul li{
+        height: auto;
+    }
+}
+
+/* Celular 576px */
+@media (max-width: 576px){
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .navbar-items li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p{
+        padding: 0 2rem;
+    }
+    
+    .benefits-container ul{
+        flex-direction: column;
+    }
+
+    .members-container p{
+        padding: 0 2rem;
+    }
+
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+    
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

@@ -47,7 +47,7 @@ fieldset{
 
 /* Page Header */
 .header{
-    height: 140px;
+    height: 100px;
     padding: 20px;
     background-image: linear-gradient(rgba(76, 207, 71, 0.8), rgba(187, 32, 24, 0.925));
 }
