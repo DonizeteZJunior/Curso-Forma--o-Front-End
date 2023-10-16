@@ -1,0 +1,63 @@
+body{
+    padding-bottom: 500px;
+}
+
+/* 1 - Flex*/
+.flex{
+    display: flex;
+    background-color: #EEE;
+    margin-bottom: 20px;
+}
+
+/* 2 - Flex-column */
+.flex-column{
+    display: flex;
+    background-color: #DDD;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* 3- Flex-wrap */
+.flex-wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Realiza a quebra de elementos por linha respeitando o espaço de cada um*/
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+/* 4 -  Justify Content */
+.center,
+.space-around,
+.space-between,
+.end{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box{
+    width: 50px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}
