@@ -67,7 +67,7 @@ body{
 }
 
 #login-form input[type="submit"]{
-    background-color: #b2dffc;
+    background-color: #0095f6;
     color: #fff;
     margin-top: 15px;
     border-radius: 5px;
@@ -80,7 +80,7 @@ body{
 }
 
 #login-form input[type="submit"]:hover{
-    background-color: #7ecbff;
+    background-color: #2cabff;
     color: #eee;
 }
 
